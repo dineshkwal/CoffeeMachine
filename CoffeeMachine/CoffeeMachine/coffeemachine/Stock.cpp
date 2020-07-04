@@ -8,7 +8,7 @@
 
 #include "Stock.h"
 
-namespace dunzo {
+namespace dcm {
 
     Stock::Stock() = default;
     
@@ -35,4 +35,4 @@ namespace dunzo {
         this->mItemQuantity = other.mItemQuantity;
     }
 
-} // namespace dunzo
+} // namespace dcm

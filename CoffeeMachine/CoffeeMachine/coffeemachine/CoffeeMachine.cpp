@@ -14,7 +14,7 @@
 
 #include <iostream>
 
-namespace dunzo {
+namespace dcm {
 
     CoffeeMachine::CoffeeMachine(const MachineConfig& config)
     : mOutlets(config.outlets)
@@ -74,4 +74,4 @@ namespace dunzo {
         return mOutlets;
     }
 
-} // namespace dunzo
+} // namespace dcm

@@ -10,7 +10,7 @@
 
 #include <string>
 
-namespace dunzo {
+namespace dcm {
     // forward declaration
     class MachineConfig;
 
@@ -19,4 +19,4 @@ namespace dunzo {
         static MachineConfig Parse(const std::string& jsonData);
     };
 
-} // namespace dunzo
+} // namespace dcm

@@ -12,7 +12,7 @@
 
 #include "threading/Semaphore.h"
 
-namespace dunzo {
+namespace dcm {
     // forward declaration
     struct Beverage;
     class MachineConfig;
@@ -39,4 +39,4 @@ namespace dunzo {
         std::atomic_int mID;
     };
 
-} // namespace dunzo
+} // namespace dcm

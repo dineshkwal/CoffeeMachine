@@ -14,7 +14,7 @@
 
 using json = nlohmann::json;
 
-namespace dunzo {
+namespace dcm {
 
     MachineConfig InputParser::Parse(const std::string& jsonData) {
         MachineConfig config;
@@ -41,5 +41,5 @@ namespace dunzo {
         return config;
     }
 
-} // namespace dunzo
+} // namespace dcm
 

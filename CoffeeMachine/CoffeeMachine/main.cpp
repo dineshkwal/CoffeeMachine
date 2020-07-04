@@ -19,10 +19,10 @@
 
 void RunTestCase(const std::string& jsonData) {
     // parse json data
-   dunzo::MachineConfig machineConfig = dunzo::InputParser::Parse(jsonData);
+   dcm::MachineConfig machineConfig = dcm::InputParser::Parse(jsonData);
    
    // init machine
-   dunzo::CoffeeMachine machine(machineConfig);
+   dcm::CoffeeMachine machine(machineConfig);
    
    // test machine with a threadpool
     threading::ThreadPool pool(machine.Outlets());

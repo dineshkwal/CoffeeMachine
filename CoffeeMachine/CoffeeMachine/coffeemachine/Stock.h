@@ -14,7 +14,7 @@
 #include <exception>
 #include <mutex>
 
-namespace dunzo {
+namespace dcm {
 
     struct ItemNotAvailableException : public std::exception {
     public:
@@ -41,4 +41,4 @@ namespace dunzo {
         std::mutex mMutex;
     };
 
-} // namespace dunzo
+} // namespace dcm

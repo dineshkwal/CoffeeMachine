@@ -11,7 +11,7 @@
 #include "Stock.h"
 #include "Beverage.h"
 
-namespace dunzo {
+namespace dcm {
 
     struct MachineConfig {
         int outlets;
@@ -19,4 +19,4 @@ namespace dunzo {
         std::vector<Beverage> beverages;
     };
 
-} // namespace dunzo
+} // namespace dcm

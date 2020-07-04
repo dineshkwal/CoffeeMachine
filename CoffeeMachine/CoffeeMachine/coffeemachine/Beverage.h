@@ -11,7 +11,7 @@
 #include <string>
 #include <vector>
 
-namespace dunzo {
+namespace dcm {
 
     struct Ingredient {
         std::string name;
@@ -23,4 +23,4 @@ namespace dunzo {
         std::vector<Ingredient> ingredients;
     };
 
-} // namespace dunzo
+} // namespace dcm
